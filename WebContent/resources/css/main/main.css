@@ -1,0 +1,307 @@
+body {
+	font-family: "Segoe UI", Arial, sans-serif;
+	background-color: #e6ecf0;
+	height: 100%;
+	font-size: 14px;
+	color: #14171a;
+	line-height: 20px;
+	overflow-y: scroll;
+	position: relative;
+}
+
+.topbar {
+	height: 46px;
+	position: fixed;
+	background-color: #fff; '
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1000;
+	display: block;
+}
+
+.container {
+	height: 100%;
+	max-width: 1190px;
+	text-align: center;
+	width: auto;
+	margin: 0 auto;
+}
+
+.navigation-right {
+	float: right;
+	text-align: left;
+	height: 100%;
+}
+
+.navigation-left {
+	width: 300px;
+	height: 100%;
+	display: inline-block;
+	float: left;
+}
+
+.navigation {
+	width: 300px;
+	text-align: left;
+	float: left;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden
+}
+
+li {
+	float: left;
+	width: 100px;
+	display: list-item;
+}
+
+a {
+	position: relative;
+}
+
+li a {
+	height: 46px;
+	width: 100px;
+	display: block;
+	color: #66757f;
+	text-align: center;
+	text-decoration: none;
+}
+
+.nav {
+	width: 100%;
+	height: 50%;
+	overflow: auto;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+li:hover a:hover {
+	background-color: #00BFFF;
+}
+
+.body-content{
+	margin-top: 56px;
+	width: 100%;
+	height: 100%;
+}
+
+.page-container {
+	width: 1190px;
+	height: 1000px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.dashboard-left {
+	float: left;
+	width: 290px;
+	height: 750px;
+	background-color: #fff;
+}
+
+.dashboard-profile {
+	background-color: white;
+	width: 290px;
+	height: 255px;
+	border: 1px solid #e6ecf0;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.dashboard-cover{
+	background-color: #1DA1F2;
+	background-size: 100%;
+	height: 95px;
+	border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    background-position: 0 50%;
+    width: 100%;
+    padding: 0;
+    margin-top: -1px;
+    display: block!important;
+}
+
+.dashboard-content{
+	width: 290px;
+	height: 160px;
+	background-color: white;
+}
+
+.user-name{
+	padding-top: 1px;
+	width: 290px;
+	height: 74px;
+	position: relative;
+}
+
+.avatar {
+	float: left;
+	height: 64px;
+	width: 64px;
+	background-color: #1DA1F2;
+	margin: 5px 15px 5px 5px;
+	
+}
+
+a {
+	text-decoration: none;	
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.follow-infor {
+	width: 288px;
+	height: 85px;
+	/* background-color: #1DA1F2; */
+	position: relative;
+    margin-top: 0px;
+}
+
+.follow-table{
+	table-layout: fixed;
+	box-sizing: border-box;
+	display: table;
+	margin: 0;
+    min-width: 100%;
+    padding: 0;
+    list-style: none;
+}
+
+.table-follow{
+	width: 100%;
+}
+
+tr {
+	height: 40px;
+}
+
+td {
+	padding-left: 20px;
+}
+
+.main{
+	float:left;
+	width: 590px;
+	margin: 0 10px 0 10px;
+	/* background-color: #1DA1F2; */
+}
+
+.post-box {
+	width: 588px;
+	height: 95px;
+	border: 1px solid #e6ecf0;
+	background-color: #E8F5FD;
+}
+
+.post-box-img{
+	width: 32px;
+	height: 32px;	
+	border-radius: 50%;
+	position: relative;
+	left: 28px;
+	top: 13px;
+	float: left;
+}
+
+.editor{
+	border-color: #C6E7FB;
+	background-color: #fff;
+	border: 1px solid #C6E7FB;
+	border-radius: 8px;
+	line-height: 20px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+
+.editor-textarea{
+	border-color: #C6E7FB;
+	background-color: #fff;
+	border: 1px solid #C6E7FB;
+	border-radius: 8px;
+	line-height: 20px;
+	width: 500px;
+	height: 100px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+
+.button-post{
+	width: 90px;
+	height: 30px;
+	margin-right: 17px;
+    float: right;
+    margin-top: 4px;
+    border-radius: 40px;
+    background-color: #C6E7FB;
+    border: 1px solid #C6E7FB;
+}
+
+.main-content {
+}
+
+.post-content {
+	margin-top: 10px;
+	width: 588px;
+	border: 1px solid #e6ecf0;
+	height: 701px;
+	background-color: #fff;
+}
+
+.post-username{
+	margin-top: 10px;
+	width: 588px;
+	height: 70px;
+}
+
+.post-username>img{
+	width: 48px;
+	height: 48px;
+	float:left;
+	border-radius: 50%;
+	position: relative;
+	margin-left: 10px;
+}
+
+.post-username>h3,p{
+	padding-left: 80px;
+}
+
+.post-description{
+	width: 100%;
+	height: 200px;
+	background-color: #E8F5FD;
+}
+
+.post-img{
+	width: 100%;
+	height: 360px;
+	background-color: red;
+}
+
+.like-button{
+	
+	
+}
+
+
+.dashboard-right{
+	float: left;
+	width: 290px;
+	height: 750px;
+	background-color: #1DA1F2;
+}

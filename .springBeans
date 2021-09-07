@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.9.4.201804120850-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[false]]></enableImports>
+	<configs>
+		<config>WebContent/WEB-INF/jvb-spring-web-servlet.xml</config>
+		<config>src/main/resrouces/user/user.xml</config>
+		<config>src/main/resrouces/Spring-Module.xml</config>
+		<config>src/main/resrouces/database/datasource.xml</config>
+		<config>src/main/java/jvb/dev/spring/config/dao-context.xml</config>
+		<config>src/main/java/jvb/dev/spring/config/impl-context.xml</config>
+		<config>src/main/java/jvb/dev/spring/config/model-context.xml</config>
+		<config>src/main/resrouces/post/post.xml</config>
+	</configs>
+	<autoconfigs>
+	</autoconfigs>
+	<configSets>
+	</configSets>
+</beansProjectDescription>

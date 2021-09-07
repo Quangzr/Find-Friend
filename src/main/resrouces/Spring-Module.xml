@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<import resource="database/datasource.xml" />
+	<import resource="user/user.xml" />
+	<import resource="post/post.xml" />
+	<import resource="search/search.xml" />
+	<import resource="following/following.xml" />
+	<import resource="follower/follower.xml" />
+	<import resource="userDM/userDM.xml" />
+</beans>
